@@ -1,12 +1,12 @@
 <template>
   <section class="app-container">
-    <h2 id="about" class="section-title">ABOUT</h2>
+    <h2 id="about" class="section-title">À PROPOS</h2>
     <div>
-      <p>2017年より、関西でWebエンジニアをしています。</p>
-      <p>PHP、JavaScriptをよく書いています。</p>
-      <p>広く浅くかじるタイプです。</p>
+      <p> Voici un portfolio enrichi pour</p>
+      <p>  le , Dr. Mustapha ELMENDILI </p>
+      <p>  Chirurgien dentiste avec 25 ans d'expérience en pratique privée.</p>
       <p>
-        趣味は、ギター・ベース、音楽・漫画・アニメ鑑賞、将棋、卓球、ルービックキューブ、写真などです。
+     Passionné par l'orthodontie et la prothèse dentaire. À la recherche d'une nouvelle opportunité pour développer mes compétences. avec des images et des descriptions plus détaillées de ses spécialités.
       </p>
     </div>
   </section>

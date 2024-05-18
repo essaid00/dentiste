@@ -54,11 +54,11 @@ export default {
         },
         {
           href: '#history',
-          label: 'Services Proposés',
+          label: 'Services',
         },
         {
           href: '#skills',
-          label: 'Qualifications et Diplômes',
+          label: ' Diplômes',
         },
         {
           href: '#links',

@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="app-container">
-      <h2 id="history" class="section-title">HISTORY</h2>
+      <h2 id="history" class="section-title">Diplômes  et Qualifications</h2>
       <ul class="flex flex-col mx-auto history-card-list">
         <history-card
           v-for="history in histories"
@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import HistoryCard from './HistoryCard'
+import HistoryCard from './HistoryCard.vue'
 
 export default {
   components: {
@@ -28,46 +28,37 @@ export default {
     histories() {
       return [
         {
-          title: '株式会社スマレジ',
-          period: '2020/04〜現在',
+          title: '•	Diplôme Universitaire en Orthodontie',
+          period: '2020',
           description:
-            'Webエンジニアとして、勤怠管理の自社サービスの開発に携わっている。' +
-            'リードエンジニアとして、重要度の高い実装や上流寄りの工程、教育やレビューを担当。' +
-            '1on1の開始、振り返り会の企画・進行などといったチーム運営にも取り組んでいる。',
+            '•	Faculté de Médecine de Dijon, France',
           techStacks: [
-            'Laravel',
-            'Vue.js',
-            'CakePHP2',
-            'jQuery',
-            'TypeScript',
-            'SCSS',
+            'France',
+            'Dijon',
+            'Médecine',
+
           ],
         },
         {
-          title: '株式会社SICデジタル',
+          title: '•	Diplôme d\'Université d\'Implantologie Chirurgicale Orale et Maxillo-Faciale',
           period: '2018/01〜2020/03',
           description:
-            'Webアプリ開発やiOSアプリ開発を担当。' +
-            '1~10人月程度の小規模な新規開発・改修に携わった。',
-          techStacks: ['Laravel', 'Vue.js', 'iOS/swift', 'Objective-C'],
+            '•	Faculté de Médecine de Toulouse, France',
+          techStacks: ['Médecine', 'Toulouse', 'France'],
         },
         {
-          title: '株式会社Silett',
+          title: '•	Diplôme d\'Université en Laser et Médecine',
           period: '2016/12~2017/12',
           description:
-            '研究室の同期の起業に参加した。' +
-            '自社制作の対話システムを活用したアプリケーション制作に携わった。' +
-            'スマホアプリのクライアント部、サーバ部、インフラ周りなどを担当した。',
-          techStacks: ['iOS/swift', 'PHP', 'C#', 'AWS', 'Line Messaging API'],
+            '•	Université de Bordeaux, France',
+          techStacks: ['Bordeaux', 'France'],
         },
         {
-          title: '大阪大学・大阪大学大学院',
+          title: '•	Master en Esthétique Dentaire',
           period: '2011/04〜2017/03',
           description:
-            '研究室では、コミュニケーションロボットに関する研究に携わった。' +
-            'Pythonを利用し、心拍データの加工・計算や、統計解析などを行った。' +
-            'Java・C++を利用し、コミュニケーションロボットの挙動を制御するシステムを制作した。',
-          techStacks: ['Python', 'Java', 'C++'],
+            '•	Université de Genève, Suisse',
+          techStacks: ['Université', 'Genève', 'Suisse'],
         },
       ]
     },

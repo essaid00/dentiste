@@ -7,7 +7,7 @@
     <div class="history-card-fade-in">
       <h3 class="mt-7 title">{{ title }}</h3>
       <div class="mb-3">{{ description }}</div>
-      <p class="tech-stack-title">使用技術</p>
+      <p class="tech-stack-title">Mots clé </p>
       <div>{{ techStacks.join(', ') }}</div>
     </div>
   </li>

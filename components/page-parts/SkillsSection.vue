@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="app-container">
-      <h2 id="skills" class="section-title">SKILLS</h2>
+      <h2 id="skills" class="section-title">Services Proposés</h2>
       <ul class="flex flex-wrap justify-between">
         <SkillCard
           v-for="skill in skills"
@@ -13,8 +13,8 @@
         />
       </ul>
       <div class="skill-others-card skill-card-fade-in">
-        <h3 class="h3 mb-2">その他</h3>
-        <p class="experience mb-1">短期間の実務経験や実務外での利用</p>
+        <h3 class="h3 mb-2">autres</h3>
+        <p class="experience mb-1">Expérience de travail à court terme  utilisation en dehors du travail</p>
         <p>{{ skillOthers.join(', ') }}</p>
       </div>
     </div>
@@ -33,61 +33,47 @@ export default {
     skills() {
       return [
         {
-          title: 'PHP',
-          experience: '実務5年',
+          title: '•	Orthodontie',
+          experience: '•	Appareils dentaires fixes et amovibles.',
           description:
-            'サーバサイドではPHPを使う機会が多い。Laravelを中心に、CakePHP2も経験がある。',
+            '•	Diagnostic et traitement des malocclusions dentaires.',
         },
         {
-          title: 'JavaScript',
-          experience: '実務4年',
+          title: '•	Implantologie',
+          experience: '•	Remplacement des dents manquantes par des implants dentaires.',
           description:
-            'Vue.js・jQueryを使うケースが多い。既存システムへのwebpackやTypeScriptの導入も担当。',
+            '•	Chirurgie implantaire avec techniques avancées.',
         },
         {
-          title: 'iOS/swift',
-          experience: '実務1年',
-          description: '受託開発にて、業務システムの制作などで利用。',
+          title: '•	Chirurgie Orale et Maxillo-Faciale',
+          experience: '•	Extraction des dents de sagesse.',
+          description: '•	Traitement des fractures et anomalies de la mâchoire.',
         },
         {
-          title: 'HTML/CSS',
-          experience: '実務半年/実務外半年',
+          title: '•	Laser Dentaire',
+          experience: '•	Traitements des maladies des gencives.',
           description:
-            '実務で使うケースは少なく、本ページは学習も兼ねて作成した。',
+            '•	Blanchiment des dents et autres interventions esthétiques.',
         },
         {
-          title: 'Python',
-          experience: '実務3ヶ月/実務外2年',
+          title: '•	Esthétique Dentaire',
+          experience: '•	Facettes dentaires.',
           description:
-            '主に、学生時代の研究活動で利用した。numpy/pandas等を利用した統計解析や、簡単なシステム操作のUI作成など。',
-        },
-        {
-          title: '資格など',
-          experience: '-',
+            '•	Blanchiment des dents.•	Remodelage des dents.',
+        },   {
+          title: '•	Esthétique Dentaire',
+          experience: '•	Facettes dentaires.',
           description:
-            '基本情報技術者試験, 応用情報技術者, TOEIC 770点, 給与計算実務能力検定 2級',
+            '•	Blanchiment des dents.•	Remodelage des dents.',
         },
+
       ]
     },
     skillOthers() {
       return [
-        'DB設計',
-        'SQL',
-        'Java',
-        'C++',
-        'C#',
-        'Objective-C',
-        'Go',
-        'TypeScript',
-        'React',
-        'AngularJS',
-        'Nuxt.js',
-        'Next.js',
-        'SCSS',
-        'AWS',
-        'Line Messaging API',
-        'Docker',
-        'Vagrant',
+        '•	Esthétique ',
+        '•	Laser Dentaire',
+
       ]
     },
   },
