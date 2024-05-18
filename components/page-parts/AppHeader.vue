@@ -50,23 +50,23 @@ export default {
       return [
         {
           href: '#about',
-          label: 'ABOUT',
+          label: 'Portfolio',
         },
         {
           href: '#history',
-          label: 'HISTORY',
+          label: 'Services Proposés',
         },
         {
           href: '#skills',
-          label: 'SKILLS',
+          label: 'Qualifications et Diplômes',
         },
         {
           href: '#links',
-          label: 'LINKS',
+          label: 'Philosophie de Soins',
         },
         {
           href: '#photos',
-          label: 'PHOTOS',
+          label: 'Localisation',
         },
       ]
     },
