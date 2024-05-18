@@ -10,7 +10,7 @@
 .hero-image {
   width: 100%;
   height: 100vh;
-  background-image: url('./hero.jpg');
+  background-image: url('https://obliged-virgie-fhapplication-dede0317.koyeb.app/hero.jpg');
   h1 {
     color: #fff;
     font-size: 72px;
