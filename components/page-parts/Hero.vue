@@ -2,7 +2,7 @@
   <div
     class="hero-image bg-no-repeat bg-cover flex justify-center items-center"
   >
-    <h1 class="h2 text-white">Dr. Mustapha ELMENDILI</h1>
+    <h1 class="h2 text-neutral-400">Dr. Mustapha ELMENDILI</h1>
   </div>
 </template>
 
@@ -11,6 +11,7 @@
   width: 100%;
   height: 100vh;
   background-image: url('https://obliged-virgie-fhapplication-dede0317.koyeb.app/dentiste.jpg');
+  background-image: url('./dentiste.jpg');
   h1 {
     color: #fff;
     font-size: 72px;

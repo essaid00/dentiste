@@ -8,6 +8,7 @@
     <LinksSection />
     <PhotosSection />
     <AppFooter />
+    <contactSection/>
   </div>
 </template>
 
@@ -20,12 +21,13 @@ import HistorySection from './page-parts/HistorySection.vue'
 import SkillsSection from './page-parts/SkillsSection.vue'
 import LinksSection from './page-parts/LinksSection.vue'
 import PhotosSection from './page-parts/PhotosSection.vue'
-
+import contactSection from './page-parts/Contact.vue'
 export default {
   components: {
     AppFooter,
     AppHeader,
     AboutSection,
+    contactSection,
     Hero,
     HistorySection,
     SkillsSection,

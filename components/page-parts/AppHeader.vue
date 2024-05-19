@@ -5,7 +5,7 @@
         class="flex flex-row gap-4 justify-end items-center header-content header-links"
       >
         <li v-for="link in links" :key="link.label">
-          <a class="header-link-a text-white" @click="scrollLink(link.href)">{{
+          <a class="header-link-a p-12 text-lg font-medium text-white" @click="scrollLink(link.href)">{{
             link.label
           }}</a>
         </li>

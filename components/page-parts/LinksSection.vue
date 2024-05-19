@@ -30,13 +30,47 @@ export default {
       return [
         {
           title: ' Dr. Mustapha ELMENDILI ',
-          url: 'https://github.com/nek0meshi/shogi-board',
+          url: 'https://obliged-virgie-fhapplication-dede0317.koyeb.app',
           description:
             'Le Dr. Mustapha ELMENDILI s\'engage à offrir des soins dentaires de haute qualité en utilisant les technologies les plus récentes et les meilleures pratiques dans le domaine de la dentisterie. Sa priorité est le bien-être de ses patients, en assurant des traitements personnalisés et adaptés à chaque cas particulier.',
           techStacks: ['Mustapha', 'ELMENDILI'],
-          fileName: 'shogi.jpg',
+          fileName: 'lesdentes.jpg',
         },
-
+        {
+          title: ' Affiliations professionnelles',
+          url: 'https://obliged-virgie-fhapplication-dede0317.koyeb.app',
+          description:
+           'Affiliations professionnelles'
+            ,
+          techStacks: ['• Membre de l\'Ordre National des Médecins Dentistes du Maroc',
+            '• Membre de la Société Marocaine d\'Orthodontie',
+            '• Membre de la Société Française d\'Implantologie Orale et Maxillo-Faciale',
+            '• Membre de la Société Internationale de Laser Dentaire',
+            '• Membre de l\'Académie Internationale d\'Esthétique Dentaire',],
+          fileName: 'revealing-shot-stomatologist-chair-with-nobody.jpg',
+        },
+        {
+          title: ' Certifications et récompenses',
+          url: 'https://obliged-virgie-fhapplication-dede0317.koyeb.app',
+          description:
+           'Certifications et récompenses'
+            ,
+          techStacks: ['Certification en Invisalign, Align Technology, Inc.',
+            'Certification en CEREC, Sirona Dental Systems',
+            '• Lauréat du Prix de la Meilleure Présentation Clinique, Congrès de la Société Marocaine d\'Orthodontie (2015)',
+            '• Membre de la Société Internationale de Laser Dentaire',
+            '• Membre de l\'Académie Internationale d\'Esthétique Dentaire',],
+          fileName: '1.jpg',
+        },
+        {
+          title: ' Publications et présentations',
+          url: 'https://obliged-virgie-fhapplication-dede0317.koyeb.app',
+          description:
+           'Auteur et co-auteur de plusieurs articles scientifiques dans des revues internationales de dentisterie'
+            ,
+          techStacks: ['Présentateur et conférencier lors de congrès et séminaires nationaux et internationaux sur l\'orthodontie, l\'implantologie, le laser dentaire et l\'esthétique dentaire',],
+          fileName: 'dentist.jpg',
+        },
       ]
     },
   },

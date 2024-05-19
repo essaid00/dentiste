@@ -34,18 +34,15 @@ export default {
   computed: {
     photos() {
       return [
-        'DSC03381.jpeg',
-        'DSC02526.jpeg',
-        'DSC01741.jpeg',
-        'DSC02253.jpeg',
-        'DSC01744.jpeg',
-        'DSC01992.jpeg',
-        'DSC02007.jpeg',
-        'DSC02177.jpeg',
-        'DSC02182.jpeg',
-        'DSC02264.jpeg',
-        'DSC00112.jpeg',
-        'DSC02261.jpeg',
+        'lesdentes.jpg',
+        'beautiful-girl-sitting-dentist-s-office.jpg',
+        'close-up-dentist-instruments.jpg',
+        'healthcare.jpg',
+        'empty-display.jpg',
+        'display.jpg',
+        'beautiful-girl-sitting-dentist-s-office.jpg',
+        'empty.jpg',
+
       ]
     },
     selectedPath() {
