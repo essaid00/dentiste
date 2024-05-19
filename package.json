@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
-    "@vee-validate/nuxt": "^4.12.8"
+    "@vee-validate/nuxt": "^4.12.8",
+    "vite": "^5.2.11"
   }
 }
