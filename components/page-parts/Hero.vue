@@ -11,7 +11,6 @@
   width: 100%;
   height: 100vh;
   background-image: url('https://obliged-virgie-fhapplication-dede0317.koyeb.app/dentiste.jpg');
-  background-image: url('./dentiste.jpg');
   h1 {
     color: #fff;
     font-size: 72px;
