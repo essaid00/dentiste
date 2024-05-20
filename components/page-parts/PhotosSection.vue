@@ -40,7 +40,7 @@ export default {
         'healthcare.jpg',
         'empty-display.jpg',
         'display.jpg',
-        'beautiful-girl-sitting-dentist-s-office.jpg',
+        'dentiste1.jpg',
         'empty.jpg',
 
       ]
