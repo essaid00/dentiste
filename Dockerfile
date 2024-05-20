@@ -18,6 +18,6 @@ RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nuxt
 COPY --from=builder /app .
 USER nuxt
-EXPOSE 3000
-ENV PORT 3000
+EXPOSE 3001
+ENV PORT 3001
 CMD ["npm", "run", "start"]
