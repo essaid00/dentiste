@@ -11,7 +11,7 @@
         </a>
       </li>
     </ul>
-    <p>©︎ 2023-2024 Dr. Mustapha ELMENDILI</p>
+    <p>©︎ 2021-2023 YUSHI WATANABE</p>
   </footer>
 </template>
 
@@ -21,20 +21,20 @@ export default {
     links() {
       return [
         {
-          title: 'FaceBook',
-          url: 'https://web.facebook.com/mustapha.elmendili/?',
-          imageFileName: 'facebook.ico',
+          title: 'github',
+          url: 'https://github.com/nek0meshi',
+          imageFileName: 'GitHub-Mark-Light-120px-plus.png',
           bdColor: '#000',
         },
         {
-          title: 'linkedin',
-          url: 'https://ma.linkedin.com/in/mustapha-el-mendili-517889104&ved=2ahUKEwiq5s-W9pmGAxUVR_EDHcRjBJIQFnoECBkQAQ&usg=AOvVaw3YBPIwClXls17X-iZt74oF',
-          imageFileName: 'linkedin.webp',
+          title: 'twitter',
+          url: 'https://twitter.com/yushi0dev',
+          imageFileName: 'Twitter social icons - circle - blue.png',
         },
         {
-          title: 'twitter',
-          url: 'https://x.com/drelmendili_mus?lang=fr&mx=2',
-          imageFileName: 'Twitter.png',
+          title: 'hatena-blog',
+          url: 'https://yushi-dev.hatenablog.com',
+          imageFileName: 'hatenablog-logo.svg',
         },
       ]
     },

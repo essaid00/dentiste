@@ -6,11 +6,9 @@
     <HistorySection />
     <SkillsSection />
     <LinksSection />
-    <contactSection/>
     <PhotosSection />
-
     <AppFooter />
-
+    <contactSection/>
   </div>
 </template>
 

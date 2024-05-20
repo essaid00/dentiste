@@ -54,25 +54,19 @@ export default {
         },
         {
           href: '#history',
-          label: ' Diplômes',
+          label: 'Services',
         },
         {
           href: '#skills',
-          label: 'Services',
+          label: ' Diplômes',
         },
-
         {
           href: '#links',
           label: 'Philosophie de Soins',
         },
         {
-          href: '#contact',
+          href: '#photos',
           label: 'Localisation',
-        },
-         {
-
-          href: '#photo',
-          label: 'Photos',
         },
       ]
     },
