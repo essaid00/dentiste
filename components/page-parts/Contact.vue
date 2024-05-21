@@ -83,11 +83,13 @@
     </v-btn>
   </form>
 </div>
-<div class="photo-card2">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4586.003177534808!2d-6.818669173297126!3d34.04807482040804!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76bc9ca372ecb%3A0x60228ebcd081d59c!2sEL%20MENDILI%20MUSTAPHA%20(Orthodontiste)!5e0!3m2!1sfr!2sma!4v1716192044535!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-      </div>
 
+      </div>
+      <div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4586.003177534808!2d-6.818669173297126!3d34.04807482040804!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76bc9ca372ecb%3A0x60228ebcd081d59c!2sEL%20MENDILI%20MUSTAPHA%20(Orthodontiste)!5e0!3m2!1sfr!2sma!4v1716192044535!5m2!1sfr!2sma"
+ width="100%" height="450"
+ style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
     </div>
 
     </section>
@@ -145,9 +147,7 @@
 </script>
 
 <style lang="scss" scoped>
-.photo-card2 {
-  width: calc(90% - 5px);
-}
+
 .photo-card {
   width: calc(45% - 5px);
   margin-bottom: 30px;

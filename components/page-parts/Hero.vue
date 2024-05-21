@@ -10,7 +10,7 @@
 .hero-image {
   width: 100%;
   height: 100vh;
-  background-image: url('https://afraid-else-dentisteapp-da324ef2.koyeb.app/dentiste-1.jpg');
+  background-image: url('dentiste-1.jpg');
   h1 {
     color: #fff;
     font-size: 72px;
